@@ -4,6 +4,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'app',
+  components: {},
+  mounted() {
+    console.log(process.env.NODE_ENV)
+  }
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
