@@ -6,33 +6,12 @@
 
 <script>
 export default {
-  name: 'app',
-  components: {},
-  mounted() {
-    console.log(process.env.NODE_ENV)
-  }
+  name: 'app'
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  font-family: 'Microsoft Yahei', Avenir, Helvetica, Arial, sans-serif;
 }
 </style>
