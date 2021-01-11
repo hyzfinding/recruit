@@ -1,14 +1,20 @@
 import Vue from 'vue'
+import { List } from 'vant';
 import VueRouter from 'vue-router'
 import routerTest from '../views/routerTest.vue'
-
+import recruitAd from '../views/recruitAd.vue'
 Vue.use(VueRouter)
-
+Vue.use(List);
 const routes = [
   {
     path: '/',
     name: 'routerTest',
     component: routerTest
+  },
+  {
+    path: '/recruitAd',
+    name: 'recruitAd',
+    component: recruitAd
   }
   // {
   //   path: '/about',

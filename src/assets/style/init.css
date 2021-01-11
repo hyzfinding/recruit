@@ -1,25 +1,13 @@
-<template>
-  <div id="app">
-    <router-view />
-  </div>
-</template>
-
-<script>
-export default {
-  name: "app",
-};
-</script>
-
-<style lang="scss">
-#app {
-  font-family: "Microsoft Yahei", Avenir, Helvetica, Arial, sans-serif;
-}
+@charset "UTF-8";
+/*
+ * 样式初始化
+ */
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   height: 100%;
-  font-size: 62.5% !important;
+  font-size:  62 0.5%   !important;
 }
 
 body {
@@ -336,5 +324,3 @@ i {
 .clearfix::after {
   clear: both;
 }
-</style>
-

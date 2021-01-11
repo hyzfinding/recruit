@@ -3,8 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
+import { Loading } from 'vant'
+import { Dialog } from 'vant'
+Vue.use(Dialog)
+Vue.use(Loading)
 
+Vue.config.productionTip = false
 new Vue({
   router,
   store,

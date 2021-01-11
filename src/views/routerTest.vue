@@ -9,9 +9,13 @@
 <script>
 export default {
   name: 'Home',
-  components: {},
   mounted() {
     console.log(123)
+  },
+  methods: {
+    goRecruitManageList() {},
+    goRecruitInterview() {},
+    goRecruitAptitudeTestList() {}
   }
 }
 </script>
