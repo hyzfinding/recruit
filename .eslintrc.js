@@ -24,8 +24,8 @@ module.exports = {
         //     'prefer-const': true,
         //     // 达到该宽度即换行
         //     printWidth: 140
-        //   }
+        //   }, 
         // ]
-        "prettier/prettier": "off"
+        "prettier/prettier":   "off"
     }
 }
